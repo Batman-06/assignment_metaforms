@@ -3,7 +3,7 @@ import sys
 import google.generativeai as genai
 
 
-os.environ["GEMINI_API_KEY"] = 'AIzaSyBT1RoI_2Q5cSNJVu_nufBlMIHBUydll-A'
+os.environ["GEMINI_API_KEY"] = 'UP API KEY'
 
 try:
    
@@ -52,3 +52,4 @@ def call_gemini(prompt: str, model_name: str = "gemini-1.5-flash-latest", temper
     except Exception as e:
         print(f"An error occurred while calling the Gemini API: {e}", file=sys.stderr)
         return None
+
